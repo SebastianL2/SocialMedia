@@ -22,11 +22,11 @@ export const Home = () => {
    getPost()
   },[])
   return (
-    <Container>
+    <Container> 
         {/*Header*/ }
         <Header>Home</Header>
         {/*TweetBox*/ }
-        <TweetBox/> 
+        <TweetBox /> 
         {
           post.map((pos) =>(
             <Posts
@@ -41,13 +41,7 @@ export const Home = () => {
             ))
           
         }
-         {/*Post*/ }
-         <Posts/>
-         {/*Post*/ }
-         {/*Post*/ }
-         {/*Post*/ }
-         {/*Post*/ }
-         {/*Post*/ }
+       
     </Container>
   )
 }

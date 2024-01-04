@@ -11,17 +11,34 @@ box-sizing: border-box;
   }
 
   -ms-overflow-style:none;
+
+  @media only screen and (max-width: 1280px) {
+     flex:0.55;
+    }
+  @media only screen and (max-width: 1004px) {
+    flex:0.95;
+  }
+  @media only screen and (max-width: 500px) {
+    flex: 1;
+  }
 `
 export const Header= styled.div`
+
+  padding: 10px; /* Espaciado interno */
+
+  /* Estilos para el texto */
+  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Peso de la fuente */
 ` 
 
-    /*TWEETBOXX*/
-    export const Tweetbox = styled.div`
-    /* Estilos del Tweetbox */
-    align-items:center;
-    padding: 5px 15px;
+/*TWEETBOXX*/
+export const Tweetbox = styled.div`
+/* Estilos del Tweetbox */
+align-items:center;
+padding: 5px 15px;
 
-  `
+`
   
   export const Div = styled.div`
     /* Estilos del Div */

@@ -6,6 +6,8 @@ export const IconOption = ({text,Icon,active}) => {
     <SidebarIcon active={active}>
         <Icon/>
         <h2>{text}</h2>
+       
     </SidebarIcon>
+    
   )
 }

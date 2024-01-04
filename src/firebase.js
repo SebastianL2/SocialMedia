@@ -1,4 +1,12 @@
-
+import {
+  REACT_APP_API_KEY,
+  REACT_APP_AUTH_DOMAIN,
+  REACT_APP_PROJECT_ID,
+  REACT_APP_STORAGE_BUCKET,
+  REACT_APP_MESSAGING_SENDER_ID,
+  REACT_APP_APP_ID,
+  REACT_APP_MEASUREMENT_ID,
+} from './setupEnv';
   // Import the functions you need from the SDKs you need
   import firebase from 'firebase/compat/app';
   import firestore  from 'firebase/compat/firestore';
@@ -9,13 +17,13 @@
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyA1RyzyixnAB_kgjG-jeLS3h9AGp99e8ws",
-    authDomain: "edu-net-7e0a0.firebaseapp.com",
-    projectId: "edu-net-7e0a0",
-    storageBucket: "edu-net-7e0a0.appspot.com",
-    messagingSenderId: "299423624562",
-    appId: "1:299423624562:web:545cefb8b5d9a2e68cc1eb",
-    measurementId: "G-CWR3DWNSHQ"
+    apiKey: REACT_APP_API_KEY,
+    authDomain: REACT_APP_AUTH_DOMAIN,
+    projectId: REACT_APP_PROJECT_ID,
+    storageBucket: REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: REACT_APP_MESSAGING_SENDER_ID,
+    appId: REACT_APP_APP_ID,
+    measurementId: REACT_APP_MEASUREMENT_ID,
   };
 
   // Initialize Firebase

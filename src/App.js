@@ -7,7 +7,6 @@ import { Sidebar } from './componentes/Sidebar';
 import { Widgets } from './componentes/Widgets';
 
 
-
 function App() {
   return (
     <div className="App">
